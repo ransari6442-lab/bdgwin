@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>JALWA | Official Telegram Channel</title>
+<title>ANAYA VIP | Official Telegram Channel</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- SEO -->
-<meta name="description" content="Join Jalwa Official Telegram Channel. 50K+ Subscribers. Get Daily Winning Tips & Bonus Updates.">
+<meta name="description" content="Join ANAYA VIP Official Telegram Channel. 50K+ Subscribers. Get Daily Winning Tips & Bonus Updates.">
 <meta name="robots" content="index, follow">
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
@@ -105,22 +105,22 @@ opacity:.7;
 <body>
 
 <div class="top">
-<h1>JALWA TELEGRAM</h1>
+<h1>ANAYA VIP TELEGRAM</h1>
 <p>Official Winning & Bonus Channel</p>
 </div>
 
 <div class="box">
 
 <div class="logo">
-<img src="https://i.ibb.co/7NZC3vYj/Screenshot-2026-01-01-102527.png" alt="Jalwa Telegram">
+<img src="https://i.ibb.co/7NZC3vYj/Screenshot-2026-01-01-102527.png" alt="ANAYA VIP Telegram">
 </div>
 
 <div class="count">
-<h2>👥 50,000+ Subscribers</h2>
+<h2>👥 <span id="subCount">0</span>+ Subscribers</h2>
 <p>India’s Trusted Gaming Community</p>
 </div>
 
-<a href="https://t.me/yourtelegramlink" class="join">
+<a href="https://t.me/+bTYcSJbPKt5jNTk1" class="join">
 🚀 JOIN TELEGRAM CHANNEL
 </a>
 
@@ -134,9 +134,26 @@ opacity:.7;
 </div>
 
 <footer>
-<p>© 2026 JALWA | All Rights Reserved</p>
+<p>© 2026 ANAYA VIP | All Rights Reserved</p>
 <p>18+ Play Responsibly</p>
 </footer>
 
+<!-- LIVE SUBSCRIBER COUNTER SCRIPT -->
+<script>
+let count = 0;
+let target = 50000;
+let speed = 20;
+
+let counter = setInterval(() => {
+  count += Math.floor(Math.random() * 120);
+  if (count >= target) {
+    count = target;
+    clearInterval(counter);
+  }
+  document.getElementById("subCount").innerText = count.toLocaleString();
+}, speed);
+</script>
+
 </body>
 </html>
+
